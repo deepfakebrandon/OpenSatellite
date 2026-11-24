@@ -14,6 +14,6 @@ npm start
 
 Before opening a pull request, run `npm run build` and describe the result. Include a screenshot for visible workspace changes when practical. Do not commit private model files, user data, generated exports, or third-party assets without permission to redistribute them.
 
-## Clean-room work
+## Reference analysis
 
-OpenSatellite is developed from independently written requirements and permitted outside-only observation. Do not copy source code, bundled resources, product branding, or other copyrighted material from commercial applications. Record observations and unresolved assumptions in the project documentation.
+OpenSatellite may use authorized local static analysis to understand feature boundaries and file formats. Keep decompilation artifacts private; do not commit pseudo-code, source, bundled resources, product branding, or other copyrighted material from commercial applications. Record observed behavior separately from assumptions in project documentation.

@@ -26,9 +26,11 @@ Requires Node.js and npm. From this folder:
 
 Issues and pull requests are welcome. Keep changes focused, explain user-visible behavior, and include build steps or screenshots when changing the workspace. Avoid including private models or copyrighted assets in sample files.
 
-## Clean-room note
+## Research basis
 
-OpenSatellite was built from the user's feature request and the outside-only evidence notes. No files, code, assets, or source from the referenced commercial program were read, extracted, executed, or copied. The reference screenshots folder was empty, so this interface and visual identity are an original estimate.
+OpenSatellite has its own code, interface, and brand. Its feature priorities are informed by a private Craft Anything Deep-mode static analysis of the locally installed ELEGOO SatelLite 1.0.2.43 executable and selected feature libraries. The analysis indicates STL and 3MF-family project formats and repair diagnostics for holes, bad edges, and non-manifold regions. Decompiled output, proprietary assets, and copied source are not part of this repository. Static results are estimates where symbols or runtime behavior are unavailable.
+
+The current interface is an original first pass; no reference screenshots were captured during this setup. OpenSatellite is a model-preparation workspace, not a complete slicer, and does not yet create G-code or manage printer profiles.
 
 ## License
 
